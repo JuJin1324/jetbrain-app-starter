@@ -133,9 +133,6 @@ Generate | ctrl + enter | 모름
 ### Presentation Assistant(Preferred)
 * 단축키 입력 혹은 단축키가 있는 액션을 할 경우 화면에 단축키를 띄어줌
 
-### Key Promoter X
-* 단축키 입력 혹은 단축키가 있는 액션을 할 경우 화면에 단축키를 띄어줌
-
 ### Lombok
 * 말이 필요 없음. 롬복 사용을 위한 설치
 
