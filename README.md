@@ -19,7 +19,7 @@
 다음 메서드(Next Method) | alt(⌥) + ↓ | alt + ↓
 이전 메서드(Previous Method) | alt(⌥) + ↑ | alt + ↑
 선택 라인 아래로 이동(Move Line Down) | shift + alt(⌥) + ↓ | shift + alt + ↓
-선택 라인 위로 이동(Move Line Down) | shift + alt(⌥) + ↑ | shift + alt + ↑
+선택 라인 위로 이동(Move Line Up) | shift + alt(⌥) + ↑ | shift + alt + ↑
 선택 라인 블록단위 문자열 아래로 이동(Move Statement Down) | shift + cmd(⌘) + ↓ | 모름 
 선택 라인 블록단위 문자열 위로 이동(Move Statement Down) | shift + cmd(⌘) + ↑ | 모름 
 Page Up(Page Up)   | fn + ↑ | Page Up
@@ -34,8 +34,7 @@ Page Down(Page Down) | fn + ↓ | Page Down
 선택영역 대소문자변경(Toggle Case) | cmd(⌘) + shift + U | ctrl + shift + U
 여러번 ctrl+c 후 붙여넣기 선택(Paste from Histroy...) | cmd(⌘) + shift + V | ctrl + shift + V
 /**/ 주석(Comment with Block Comment) | cmd(⌘) + shift + / | ctrl + shift + /
-해당 라인으로 이동(Line/Column...) | cmd(⌘) + G | ctrl + G
-되돌리기 | cmd(⌘) + Z | ctrl + Z
+라인 번호의 라인으로 이동(Line/Column...) | cmd(⌘) + G | ctrl + G
 
 ### 윈도우
 설명       |   macOS   |  Windows
