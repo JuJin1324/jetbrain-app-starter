@@ -47,8 +47,8 @@ Edit 화면만 나오고 나머지 숨기기(Hide All Tool Windows) | cmd(⌘) +
 스플릿 탭 모두 없애기(Unsplit All) | ctrl(^) + alt(⌥) | [ | 모름
 포커스 오른쪽 탭으로 이동(Move Focus Right) | ctrl(^) + alt(⌥) + shift + ] | 모름
 포커스 왼쪽 탭으로 이동(Move Focus Left) | ctrl(^) + alt(⌥) + shift + [ | 모름
-윈도우 오른쪽으로 줄이기/늘리기 Stretch to Right | cmd(⌘) + shift + → | 모름
-윈도우 왼쪽으로 줄이기/늘리기 Stretch to Right | cmd(⌘) + shift + ← | 모름
+윈도우 오른쪽으로 줄이기/늘리기 (Stretch to Right) | cmd(⌘) + shift + → | 모름
+윈도우 왼쪽으로 줄이기/늘리기 (Stretch to Right) | cmd(⌘) + shift + ← | 모름
 
 ### 코드 탐색
 설명       | macOS     |  Windows  
