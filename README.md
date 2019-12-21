@@ -5,7 +5,7 @@
 [How to use Mac OSX Keymap on Windows for WebStorm or IntelliJ IDEA?](https://stackoverflow.com/questions/42422318/how-to-use-mac-osx-keymap-on-windows-for-webstorm-or-intellij-idea/42422764#42422764)
 
 ## 단축키 정리
-* 해당키에는 커스텀으로 변경한 키가 있습니다.  
+* 해당키에는 커스텀으로 변경한 키가 있습니다. - [커스텀] 표시가 붙습니다.  
 ※ 단축키에 대문자 알파벳은 보기 편하기 위해서 표기하였습니다.   
 대문자로 표기만 하였을 뿐 해당 대문자가 shift + 소문자가 아닙니다.
 
@@ -39,12 +39,14 @@ Page Down(Page Down) | fn + ↓ | Page Down
 ### 윈도우
 설명       |   macOS   |  Windows
 --------- | --------- | ---------
-탭 닫기(Editor Tabs - Close) | cmd(⌘) + F4 | ctrl + F4
 다음 탭으로 이동(Select Next Tab) | ctrl(^) + →  | 모름
 이전 탭으로 이동(Select Previous Tab) | ctrl(^) + ← | 모름
-Edit 화면만 나오고 나머지 숨기기 | cmd(⌘) + shift + F12	| ctrl + shift + F12 
-스플릿뷰 오른쪽 생성(Split Vertically) | ctrl(^) + alt(⌥) | ] | 모름
-스플릿뷰 모두 없애기(Unsplit All) | ctrl(^) + alt(⌥) | [ | 모름
+탭 닫기(Editor Tabs - Close) | cmd(⌘) + F4 | ctrl + F4
+Edit 화면만 나오고 나머지 숨기기(Hide All Tool Windows) | cmd(⌘) + shift + F12	| ctrl + shift + F12 
+스플릿 탭 오른쪽 생성(Split Vertically) | ctrl(^) + alt(⌥) | ] | 모름
+스플릿 탭 모두 없애기(Unsplit All) | ctrl(^) + alt(⌥) | [ | 모름
+포커스 오른쪽 탭으로 이동(Move Focus Right) | ctrl(^) + alt(⌥) + shift + ] | 모름
+포커스 왼쪽 탭으로 이동(Move Focus Left) | ctrl(^) + alt(⌥) + shift + [ | 모름
 윈도우 오른쪽으로 줄이기/늘리기 Stretch to Right | cmd(⌘) + shift + → | 모름
 윈도우 왼쪽으로 줄이기/늘리기 Stretch to Right | cmd(⌘) + shift + ← | 모름
 
@@ -101,14 +103,14 @@ Commit    |  cmd(⌘) + K | ctrl + K
 Push      |  cmd(⌘) + shift + K | ctrl + shift + K
 Pull      |  cmd(⌘) + shift + P | 모름
 
-### 인텔리J
+### IntelliJ
 설명       | macOS     |  Windows  
 --------- | --------- | ---------
-Preferences | cmd(⌘) + , | ctrl + shift + S 
-reveal in Finder | cmd(⌘) + alt(⌥) + F12 | 모름
-Project Structure | cmd(⌘) + ;           | 모름
-Generate | ctrl + enter | 모름
-프로젝트 열기(Open...) | cmd(⌘) + shift + O | 모름
+환경설정(Preferences) | cmd(⌘) + , | ctrl + shift + S 
+파인더(윈도우 탐색기)에서 보기(reveal in Finder) | cmd(⌘) + alt(⌥) + F12 | 모름
+프로젝트 구조 설정(Project Structure) | cmd(⌘) + ;           | 모름
+생성하기(Generate) | ctrl + enter | 모름
+프로젝트 열기(Open...)[커스텀] | cmd(⌘) + shift + O | 모름
 
 ### 탐색
 설명       | macOS     |  Windows  
@@ -119,17 +121,11 @@ Generate | ctrl + enter | 모름
 북마크 보기(Show Bookmarks) | shift + F11
 북마크 추가(Toogle Bookmark) | F11
 
-### 플러그인
-설명  | macOS | Windows | 플러그인
---------- | --------- | --------- | ---------
-화면 vertical 분할 | cmd(⌘) + alt(⌥) + [ 혹은 ] | ctrl + alt + [ 혹은 ]  | Tab Shifter
-분할 화면 사이 커서 넘어다니기 | cmd(⌘) + alt(⌥) + shift + [ 혹은 ]
-
 ## IDEA 플러그인
 ### Grep Console
 * 설정한 로그 마다의 색을 변경하여 구분하기 좋음
 
-### Presentation Assistant(Preferred)
+### Presentation Assistant
 * 단축키 입력 혹은 단축키가 있는 액션을 할 경우 화면에 단축키를 띄어줌
 
 ### Lombok

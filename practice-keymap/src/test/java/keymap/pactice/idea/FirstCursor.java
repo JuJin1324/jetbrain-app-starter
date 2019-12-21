@@ -4,12 +4,12 @@ package keymap.pactice.idea;
  * Created by Yoo Ju Jin(yjj@hanuritien.com)
  * Created Date : 2019/12/21
  */
-public class Cursor {
+public class FirstCursor {
 
     public static void main(String[] args) {
         /* 1. 단어 사이로 커서 이동 */
         String moveCaretToNextWord = "alt(⌥)(⌥) + →" + "Start to to to to to End.";
-        String moveCaretToPrevWord = "alt(⌥)(⌥) + ←" + "End from from from from Start.";
+        String moveCaretToPreviousWord = "alt(⌥)(⌥) + ←" + "End from from from from Start.";
 
         /* 2. 라인 시작 및 끝으로 이동 */
         String moveCaretToLineStart = "cmd(⌘) + ←" + "String is where cursor would be.";
@@ -30,16 +30,16 @@ public class Cursor {
     }
 
     /* 4. 이전 메서드로 이동 */
-    public void prevMethod1() {
-        System.out.println("alt(⌥) + ↑" + "move to Previous Method");
+    public void previousMethod1() {
+        System.out.println("alt(⌥) + ↑" + "move to Previousious Method");
     }
 
-    public void prevMethod2() {
-        System.out.println("alt(⌥) + ↑" + "move to Previous Method");
+    public void previousMethod2() {
+        System.out.println("alt(⌥) + ↑" + "move to Previousious Method");
     }
 
-    public void prevMethod3() {
-        System.out.println("alt(⌥) + ↑" + "move to Previous Method");
+    public void previousMethod3() {
+        System.out.println("alt(⌥) + ↑" + "move to Previousious Method");
     }
 
     /* 5. 라인 옮기기 */
