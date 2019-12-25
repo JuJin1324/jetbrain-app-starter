@@ -1,4 +1,4 @@
-package keymap.pactice.idea;
+package keymap.practice;
 
 /**
  * Created by Yoo Ju Jin(yjj@hanuritien.com)

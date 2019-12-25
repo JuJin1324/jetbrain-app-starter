@@ -1,4 +1,4 @@
-package keymap.pactice.idea;
+package keymap.practice;
 
 /**
  * Created by Yoo Ju Jin(yjj@hanuritien.com)
@@ -11,7 +11,7 @@ public class SecondWindow {
 
         /* 탭으로 이동 */
         String selectNextTab = "ctrl(^) + →";
-        String selecPreviousTab = "ctrl(^) + ←";
+        String selectPreviousTab = "ctrl(^) + ←";
 
         /* 탭 닫기 - TODO: 다른 탭으로 옮기고 나서 하세요. 안그러면 현재 탭이 닫힙니다. */
         String editorTabsClose = "cmd(⌘) + F4";

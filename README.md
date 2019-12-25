@@ -47,38 +47,40 @@ Edit 화면만 나오고 나머지 숨기기(Hide All Tool Windows) | cmd(⌘) +
 스플릿 탭 모두 없애기(Unsplit All) | ctrl(^) + alt(⌥) | [ | 모름
 포커스 오른쪽 탭으로 이동(Move Focus Right) | ctrl(^) + alt(⌥) + shift + ] | 모름
 포커스 왼쪽 탭으로 이동(Move Focus Left) | ctrl(^) + alt(⌥) + shift + [ | 모름
-윈도우 오른쪽으로 줄이기/늘리기 (Stretch to Right) | cmd(⌘) + shift + → | 모름
-윈도우 왼쪽으로 줄이기/늘리기 (Stretch to Right) | cmd(⌘) + shift + ← | 모름
+윈도우 오른쪽으로 줄이기/늘리기(Stretch to Right) | cmd(⌘) + shift + → | 모름
+윈도우 왼쪽으로 줄이기/늘리기(Stretch to Right) | cmd(⌘) + shift + ← | 모름
 
 ### 코드 탐색
 설명       | macOS     |  Windows  
 --------- | --------- | ---------
 마지막 Edit 하던거로 돌아가기(Last Edit Location)	| cmd(⌘) + shift + delete	| ctrl + shift + backspace 
 최근 수정한 파일 목록(Recent Files)	| cmd(⌘) + E        | ctrl + E 
-Method Hierarchy | cmd(⌘) + shift + H | ctrl + shift + H
+최근 수정한 위치 목록(Recent Locations) | cmd(⌘) + shift + E | 모름
+선언부 이동(Declaration or Usages) | cmd(⌘) + B | ctrl + B
+구현부 이동(implementation(s)) | cmd(⌘) + alt(⌥) + B | ctrl + alt + B
+메서드 계층보기(Method Hierarchy) | cmd(⌘) + shift + H | ctrl + shift + H
 Find Usages | alt(⌥) + F7 | alt + F7
-Find and Replace | cmd(⌘) + R | ctrl + R
 Find | cmd(⌘) + F | ctrl + F
+Find and Replace | cmd(⌘) + R | ctrl + R
 Find in path | cmd(⌘) + shift + F 또는 ctrl(^) + shift + F | ctrl + shift + F
-선언부 이동 | cmd(⌘) + B | ctrl + B
-구현부 이동 | cmd(⌘) + alt(⌥) + B | ctrl + alt + B
-이전 작업으로 이동 | cmd(⌘) + alt(⌥) + ← | ctrl + alt + ←
-기존 작업으로 이동 | cmd(⌘) + alt(⌥) + → | ctrl + alt + →
+Find in All | shift + shift | shift + shift
+이전 작업으로 이동(Back) | cmd(⌘) + alt(⌥) + ← | ctrl + alt + ←
+기존 작업으로 이동(Forward) | cmd(⌘) + alt(⌥) + → | ctrl + alt + →
 
 ### 리펙토링
 설명       | macOS     |  Windows  
 --------- | --------- | ---------
 리펙토링 메뉴(Refactor This)	       | cmd(⌘) + alt(⌥) + shift + T     | ctrl + alt + shift + T 
-소스를 메서드로 추출	       | cmd(⌘) + alt(⌥) + M | ctrl + alt + M 
-소스를 변수로 추출          | cmd(⌘) + alt(⌥) + V | ctrl + alt + V 
-소스를 멤버변수(필드)로 추출  | cmd(⌘) + alt(⌥) + F | ctrl + alt + F 
-소스를 상수로 추출          | cmd(⌘) + alt(⌥) + C | ctrl + alt + C
-변수 메서드 파라미터로 추출 | cmd(⌘) + alt(⌥) + P | ctrl + alt + P
-감싸기 코드 생성(if/foreach/for/try catch등) | cmd(⌘) + alt(⌥) + T | ctrl + alt + T
-test 메서드 만들기(이미 존재하면 해당 메서드로 이동)	     | cmd(⌘) + shift + T   | ctrl + shift + T 
-import 최적화 | cmd(⌘) + alt(⌥) + O | ctrl + alt + O
-전체 들여쓰기 재정렬 | cmd(⌘) + alt(⌥) + L | ctrl + alt + L
-메서드 형태 변화 | cmd(⌘) + F6 | 모름 
+소스를 메서드로 추출(Extract Method...)	       | cmd(⌘) + alt(⌥) + M | ctrl + alt + M 
+소스를 변수로 추출(Introduce Variable...)          | cmd(⌘) + alt(⌥) + V | ctrl + alt + V 
+소스를 멤버변수(필드)로 추출(Introduce Field)  | cmd(⌘) + alt(⌥) + F | ctrl + alt + F 
+소스를 상수로 추출(Introduce Constant)          | cmd(⌘) + alt(⌥) + C | ctrl + alt + C
+변수 메서드 파라미터로 추출(Introduce Parameter) | cmd(⌘) + alt(⌥) + P | ctrl + alt + P
+감싸기 코드 생성(if/foreach/for/try catch등)(Surround With...) | cmd(⌘) + alt(⌥) + T | ctrl + alt + T
+test 만들기(이미 존재하면 해당 메서드로 이동)(Test)	     | cmd(⌘) + shift + T   | ctrl + shift + T 
+import 최적화(Optimize Imports) | cmd(⌘) + alt(⌥) + O | ctrl + alt + O
+전체 들여쓰기 재정렬(Reformat Code) | cmd(⌘) + alt(⌥) + L | ctrl + alt + L
+메서드 형태 변화(Change Signature...) | cmd(⌘) + F6 | 모름 
 Rename | shift + F6 | shift + F6
 
 ### Run/Debug
