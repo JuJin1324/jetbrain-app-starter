@@ -123,7 +123,10 @@ Pull      |  cmd(⌘) + shift + P | 모름
 북마크 보기(Show Bookmarks) | shift + F11
 북마크 추가(Toogle Bookmark) | F11
 
-## IDEA 플러그인
+## 플러그인
+### Material Theme UI
+* Jetbrain 모든 응용프로그램 UI 테마 변경 플러그인 : 팔저눈 깔끔하고 마음에 듬.
+
 ### Grep Console
 * 설정한 로그 마다의 색을 변경하여 구분하기 좋음
 
