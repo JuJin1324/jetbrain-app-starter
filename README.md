@@ -1,6 +1,8 @@
-# Intellij IDEA 시작하기
+# Jetbrain-App-Starter
+Jetbrain 제품 응용프로그램들 공통 시작하기
 
-## IDEA 단축키 ctrl -> command 변경
+## macOS
+### 단축키 ctrl -> command 변경
 * 환경설정 : command + , -> Keymap 이동 -> dropdown 메뉴에서 Mac OS X 으로 변경 후 Main menu > edit 에서 변경확인  
 [How to use Mac OSX Keymap on Windows for WebStorm or IntelliJ IDEA?](https://stackoverflow.com/questions/42422318/how-to-use-mac-osx-keymap-on-windows-for-webstorm-or-intellij-idea/42422764#42422764)
 
@@ -105,7 +107,7 @@ Commit    |  cmd(⌘) + K | ctrl + K
 Push      |  cmd(⌘) + shift + K | ctrl + shift + K
 Pull      |  cmd(⌘) + shift + P | 모름
 
-### IntelliJ
+### System
 설명       | macOS     |  Windows  
 --------- | --------- | ---------
 환경설정(Preferences) | cmd(⌘) + , | ctrl + shift + S 
