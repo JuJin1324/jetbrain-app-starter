@@ -137,46 +137,46 @@ Pull      |  cmd(⌘) + shift + P | 모름
 
 ## 플러그인
 ### Material Theme UI
-응용프로그램 UI 테마 변경 플러그인 : 팔저눈 깔끔하고 마음에 듬.
+* 응용프로그램 UI 테마 변경 플러그인
 
 ### Grep Console
-설정한 로그 마다의 색을 변경하여 구분하기 좋음
+* 설정한 로그 마다의 색을 변경하여 구분하기 좋음
 
 ### Presentation Assistant
-단축키 입력 혹은 단축키가 있는 액션을 할 경우 화면에 단축키를 띄어줌
+* 단축키 입력 혹은 단축키가 있는 액션을 할 경우 화면에 단축키를 띄어줌
 
 ### Lombok
-Plain Java 클래스 생성시에 Constructor/Setter/Getter/toString 등 필요한 메서드를 애노테이션을 사용하여 자동 생성시켜주는 리
-롬복 라이브러리 사용을 IDE가 문법적으로 인지할 수 있도록 하는 라이브러리(롬복 사용을 위해서는 maven이나 gradle로 롬복 디펜던시 추가 필요.)
+* Plain Java 클래스 생성시에 Constructor/Setter/Getter/toString 등 필요한 메서드를 애노테이션을 사용하여 자동 생성시켜주는 롬복 라이브러리의 
+사용을 IDE가 문법적으로 인지할 수 있도록 하는 라이브러리(롬복 사용을 위해서는 maven이나 gradle로 롬복 디펜던시 추가 필요.)
 
 ### GenerateSerialVersionUID
-클래스 안에서 Alt + Insert(Windows) 단축키에 자동 UID 생성 메뉴
+* 클래스 안에서 Alt + Insert(Windows) 단축키에 자동 UID 생성 메뉴
 
 ### .ignore
-.gitIgnore 파일에 탬플릿을 이용하여 git ignore할 파일 지정
+* .gitIgnore 파일에 탬플릿을 이용하여 git ignore할 파일 지정
 
 ### JS GraphQL
-javascript 파일 syntax, error highlighting 등등 기능 제공
+* javascript 파일 syntax, error highlighting 등등 기능 제공
 
 ### Acejump
-ctrl + ; 를 통해서 특정 문자열로 이동시켜주는 플러그인
+* ctrl + ; 를 통해서 특정 문자열로 이동시켜주는 플러그인
 
 ### String Manipulation
-문자열 변경 및 특정 규칙 생성 해주는 플러그인. 우클릭에서 String Manipulation 메뉴를 보면 유용
+* 문자열 변경 및 특정 규칙 생성 해주는 플러그인. 우클릭에서 String Manipulation 메뉴를 보면 유용
 
 ### Json2Java4Idea
-자바 클래스 생성시에 json sample을 넣어서 생성할 수 있도록 해주는 플러그인   
+* 자바 클래스 생성시에 json sample을 넣어서 생성할 수 있도록 해주는 플러그인   
 * 설치 후 패키지에 우클릭 > New > Java class from json 항목이 나옴.
 
 ### BashSupport
-인텔리J 에서 .sh 파일 수정 시에 문법 잡아줌.
+* 인텔리J 에서 .sh 파일 수정 시에 문법 잡아줌.
 
 ### Properties to YAML Converter
-.properties 파일을 yaml 로 만들어줌.
+* .properties 파일을 yaml 로 만들어줌.
 * 사용예) .properties 파일에 우클릭 > Convert Properties to YAML 항목 클릭
 
 ### Tab Shifter
-ctrl + alt + [ 혹은 ctrl + alt + ] 로 인텔리J 창 옮겨다니기
+* ctrl + alt + [ 혹은 ctrl + alt + ] 로 인텔리J 창 옮겨다니기
 
 ## Google Cloud Repository
 [Wiki](https://github.com/JuJin1324/Intellij-IDEA-Starter/wiki/Google-Cloud-Repository-%EC%97%B0%EB%8F%99)
