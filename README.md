@@ -2,6 +2,17 @@
 Jetbrain 제품 응용프로그램들 공통 시작하기
 
 ## macOS
+### File Header 추가
+소스 파일을 생성할 때 마다 자동으로 파일의 최상단에 생성할 주석 코드(예: 저작권, 파일 소유자, 파일 생성자, 생성일 등의 정보)
+* Preference(Command + ,) -> Editor -> File and Code Templates -> include 탭 -> + 버튼
+```java
+/**
+ * Created by Yoo Ju Jin(jujin1324@daum.net)
+ * Created Date : 2019-09-15
+ */
+```
+APPLY 버튼 -> OK 버튼
+
 ### 단축키 ctrl -> command 변경
 * 환경설정 : command + , -> Keymap 이동 -> dropdown 메뉴에서 Mac OS X 으로 변경 후 Main menu > edit 에서 변경확인  
 [How to use Mac OSX Keymap on Windows for WebStorm or IntelliJ IDEA?](https://stackoverflow.com/questions/42422318/how-to-use-mac-osx-keymap-on-windows-for-webstorm-or-intellij-idea/42422764#42422764)
