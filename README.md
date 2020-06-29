@@ -100,11 +100,11 @@ Rename | shift + F6 | shift + F6
 --------- | --------- | ---------
 Run 현재 커서가 있는 클래스의 main(Run context configuration) | cmd(⌘) + shift + F10 | ctrl + shift + F10
 Run | shift + F10 | shift + F10
-Run 목록 | alt(⌥) + shift + F10 | alt + shift + F10
+Run 목록(Run...) | alt(⌥) + shift + F10 | alt + shift + F10
 Stop | cmd(⌘) + F2 | 모름
-Debug 현재 커서가 있는 클래스의 main | cmd(⌘) + shift + F9 | ctrl + shift + F9
-Debug 마지막으로 Run한 main(Debug context configuration) | shift + F9 | shift + F9
-Debug 목록 | alt(⌥) + shift + F9 | alt + shift + F9
+Debug | shift + F9 | shift + F9
+Debug 현재 커서가 있는 클래스의 main(Debug context configuration) | cmd(⌘) + shift + F9 | ctrl + shift + F9
+Debug 목록(Debug...) | alt(⌥) + shift + F9 | alt + shift + F9
 Step Over | F8 | F8
 Step Out | shift + F8 | shift + F8
 Step Into | F7 | F7
@@ -115,7 +115,7 @@ Step Into | F7 | F7
 Fetch     |  cmd(⌘) + T | ctrl + T
 Commit    |  cmd(⌘) + K | ctrl + K
 Push      |  cmd(⌘) + shift + K | ctrl + shift + K
-Pull      |  cmd(⌘) + shift + P | 모름
+Pull[커스텀]      |  cmd(⌘) + shift + P | 모름
 
 ### System
 설명       | macOS     |  Windows  
@@ -129,8 +129,7 @@ Pull      |  cmd(⌘) + shift + P | 모름
 ### 탐색
 설명       | macOS     |  Windows  
 --------- | --------- | ---------
-액션 찾기	  | cmd(⌘) + shift + A  | ctrl + shift + A 
-클래스 찾기  | cmd(⌘) + N | ctrl + N
+액션 찾기(Find Action...)	  | cmd(⌘) + shift + A  | ctrl + shift + A 
 현재 편집중인 파일을 프로젝트 탭에서 보기 | alt(⌥) + F1
 북마크 보기(Show Bookmarks) | shift + F11
 북마크 추가(Toogle Bookmark) | F11
