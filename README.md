@@ -55,8 +55,8 @@ Page Down(Page Down) | fn + ↓ | Page Down
 이전 탭으로 이동(Select Previous Tab) | ctrl(^) + ← | 모름
 탭 닫기(Editor Tabs - Close) | cmd(⌘) + F4 | ctrl + F4
 Edit 화면만 나오고 나머지 숨기기(Hide All Tool Windows) | cmd(⌘) + shift + F12	| ctrl + shift + F12 
-스플릿 탭 오른쪽 생성(Split Vertically) | ctrl(^) + alt(⌥) | ] | 모름
-스플릿 탭 모두 없애기(Unsplit All) | ctrl(^) + alt(⌥) | [ | 모름
+스플릿 탭 오른쪽 생성(Split Vertically) | ctrl(^) + alt(⌥) + ] | 모름
+스플릿 탭 모두 없애기(Unsplit All) | ctrl(^) + alt(⌥) + [ | 모름
 포커스 오른쪽 탭으로 이동(Move Focus Right) | ctrl(^) + alt(⌥) + shift + ] | 모름
 포커스 왼쪽 탭으로 이동(Move Focus Left) | ctrl(^) + alt(⌥) + shift + [ | 모름
 윈도우 오른쪽으로 줄이기/늘리기(Stretch to Right) | cmd(⌘) + shift + → | 모름
