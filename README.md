@@ -1,6 +1,9 @@
 # Jetbrain-App-Starter
 Jetbrain 제품 응용프로그램들 공통 시작하기
 
+### .gitignore 에 파일 추가 안될때
+터미널에 `git rm -rf --cached .`
+
 ## macOS
 ### File Header 추가
 소스 파일을 생성할 때 마다 자동으로 파일의 최상단에 생성할 주석 코드(예: 저작권, 파일 소유자, 파일 생성자, 생성일 등의 정보)
