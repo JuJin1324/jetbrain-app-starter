@@ -166,7 +166,7 @@ Pull[커스텀]      |  cmd(⌘) + shift + P | 모름
 ### String Manipulation
 * 문자열 변경 및 특정 규칙 생성 해주는 플러그인. 우클릭에서 String Manipulation 메뉴를 보면 유용
 
-### Json2Java4Idea
+### RoboPOJOGene
 * 자바 클래스 생성시에 json sample을 넣어서 생성할 수 있도록 해주는 플러그인   
 * 설치 후 패키지에 우클릭 > New > Java class from json 항목이 나옴.
 
