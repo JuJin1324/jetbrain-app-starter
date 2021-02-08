@@ -1,6 +1,9 @@
 # Jetbrain-App-Starter
 Jetbrain 제품 응용프로그램들 공통 시작하기
 
+### README.md 파일에서 스페이스 2번 눌렀던게 저장 후 사라질 때
+> preferences -> Editor -> General -> Save Files -> Strip trailing spaces on Save for: None 으로 변경
+
 ### .gitignore 에 파일 추가 안될때
 터미널에 `git rm -rf --cached .`
 
