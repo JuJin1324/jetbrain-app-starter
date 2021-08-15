@@ -1,6 +1,12 @@
 # Jetbrain-App-Starter
 Jetbrain 제품 응용프로그램들 공통 시작하기
 
+## Gradle
+> Gradle Builder 사용 시 Preference -> Build, Execution, Deployment -> Build Tools -> Gradle 에서  
+> Build and run using: IntelliJ IDEA  
+> Run tests using: IntelliJ IDEA  
+> 로 변경하면 빌드나 run test 가 더 빨라짐.
+
 ## macOS
 ### File Header 추가
 소스 파일을 생성할 때 마다 자동으로 파일의 최상단에 생성할 주석 코드(예: 저작권, 파일 소유자, 파일 생성자, 생성일 등의 정보)

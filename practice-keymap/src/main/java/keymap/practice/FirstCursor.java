@@ -8,8 +8,8 @@ public class FirstCursor {
 
     public static void main(String[] args) {
         /* 1. 단어 사이로 커서 이동 */
-        String moveCaretToNextWord = "alt(⌥)(⌥) + →" + "Start to to to to to End.";
-        String moveCaretToPreviousWord = "alt(⌥)(⌥) + ←" + "End from from from from Start.";
+        String moveCaretToNextWord = "alt(⌥) + →" + "Start to to to to to End.";
+        String moveCaretToPreviousWord = "alt(⌥) + ←" + "End from from from from Start.";
 
         /* 2. 라인 시작 및 끝으로 이동 */
         String moveCaretToLineStart = "cmd(⌘) + ←" + "String is where cursor would be.";
