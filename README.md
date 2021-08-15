@@ -1,6 +1,12 @@
 # Jetbrain-App-Starter
 Jetbrain 제품 응용프로그램들 공통 시작하기
 
+### README.md 파일에서 스페이스 2번 눌렀던게 저장 후 사라질 때
+> preferences -> Editor -> General -> Save Files -> Strip trailing spaces on Save for: None 으로 변경
+
+### .gitignore 에 파일 추가 안될때
+터미널에 `git rm -rf --cached .`
+
 ## Gradle
 > Gradle Builder 사용 시 Preference -> Build, Execution, Deployment -> Build Tools -> Gradle 에서  
 > Build and run using: IntelliJ IDEA  
@@ -169,7 +175,7 @@ Pull[커스텀]      |  cmd(⌘) + shift + P | 모름
 ### String Manipulation
 * 문자열 변경 및 특정 규칙 생성 해주는 플러그인. 우클릭에서 String Manipulation 메뉴를 보면 유용
 
-### Json2Java4Idea
+### RoboPOJOGene
 * 자바 클래스 생성시에 json sample을 넣어서 생성할 수 있도록 해주는 플러그인   
 * 설치 후 패키지에 우클릭 > New > Java class from json 항목이 나옴.
 
