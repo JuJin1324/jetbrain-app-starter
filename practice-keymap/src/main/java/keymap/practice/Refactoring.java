@@ -45,7 +45,7 @@ public class Refactoring {
         int a = 100, b = 10;
         int c = a / b;    /* a/b 시에 혹시 b가 0이면 ArithmeticException이 발생함으로 예외처리 해야함 */
 
-        /* test 메서드 만들기(이미 존재하면 해당 메서드로 이동) - TODO : parameterTest 메서드로 커서 가져다대고 단축키로 test 클래스 생성 */
+        /* test 메서드 만들기(이미 존재하면 해당 메서드로 이동) */
         String test = "cmd(⌘) + shift + T";
 
         /* import 최적화 */
@@ -53,10 +53,11 @@ public class Refactoring {
 
         /* 전체 들여쓰기 재정렬 */
         String reformatCode = "cmd(⌘) + alt(⌥) + L";
-        String thisWillBeReformatted="This"+"Will"     + "Be" +"Reformatted" ;
+        String thisWillBeReformatted = "This"+"Will"+"Be"+"Reformatted";
 
         /* 메서드 형태 변화 - TODO : parameterTest 메서드로 커서 옮긴 후에 단축키로 메서드 이름은 signatureTest 변경 및 파라미터 String param1 추가 해보기 */
         String changeSignature = "cmd(⌘) + F6";
+        parameterTest();
 
         /* Rename */
         String rename = "shift + F6";
