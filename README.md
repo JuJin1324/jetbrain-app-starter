@@ -124,7 +124,7 @@
 ### VCS
 > 설명       | macOS     |  Windows  
 > --------- | --------- | ---------
-> Fetch     |  cmd(⌘) + T | ctrl + T
+> Fetch[커스텀]     |  cmd(⌘) + T | ctrl + T
 > Commit    |  cmd(⌘) + K | ctrl + K
 > Push      |  cmd(⌘) + shift + K | ctrl + shift + K
 > Pull[커스텀]      |  cmd(⌘) + shift + P | 모름
@@ -142,16 +142,12 @@
 > 설명       | macOS     |  Windows  
 > --------- | --------- | ---------
 > 액션 찾기(Find Action...)	  | cmd(⌘) + shift + A  | ctrl + shift + A 
-> 현재 편집중인 파일을 프로젝트 탭에서 보기 | alt(⌥) + F1
 > 북마크 보기(Show Bookmarks) | shift + F11
 > 북마크 추가(Toogle Bookmark) | F11
 
 ---
 
 ## 플러그인
-### Material Theme UI
-> 응용프로그램 UI 테마 변경 플러그인
-
 ### Grep Console
 > 설정한 로그 마다의 색을 변경하여 구분하기 좋음
 
@@ -168,21 +164,9 @@
 ### .ignore
 > .gitIgnore 파일에 탬플릿을 이용하여 git ignore할 파일 지정
 
-### JS GraphQL
-> javascript 파일 syntax, error highlighting 등등 기능 제공
-
-### Acejump
-> ctrl + ; 를 통해서 특정 문자열로 이동시켜주는 플러그인
-
-### String Manipulation
-> 문자열 변경 및 특정 규칙 생성 해주는 플러그인. 우클릭에서 String Manipulation 메뉴를 보면 유용
-
 ### RoboPOJOGene
 > 자바 클래스 생성시에 json sample을 넣어서 생성할 수 있도록 해주는 플러그인   
 > 설치 후 패키지에 우클릭 > New > Java class from json 항목이 나옴.
-
-### BashSupport
-> 인텔리J 에서 .sh 파일 수정 시에 문법 잡아줌.
 
 ### Properties to YAML Converter
 > .properties 파일을 yaml 로 만들어줌.
@@ -193,6 +177,14 @@
 
 ### Google Cloud Repository
 > [Wiki](https://github.com/JuJin1324/Intellij-IDEA-Starter/wiki/Google-Cloud-Repository-%EC%97%B0%EB%8F%99)
+
+### Material Theme UI
+> 유료화로 인하여 사용 안함.  
+> 응용프로그램 UI 테마 변경 플러그인
+
+### BashSupport
+> 유료화로 인하여 사용 안함.  
+> 인텔리J 에서 .sh 파일 수정 시에 문법 잡아줌.
 
 ---
 
