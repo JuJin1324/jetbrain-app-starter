@@ -44,41 +44,23 @@ public class FirstCursor {
 
     /* 5. 라인 옮기기 */
     public void moveLine() {
-        /* 라인 위치 내리기 */
-        String moveLineDown = "shift + alt(⌥) + ↓";
-        System.out.println("Move Line Down to this.");
-        System.out.println("Move Line Down to this.");
-        System.out.println("Move Line Down to this.");
-        System.out.println("Move Line Down to this.");
-        System.out.println("Move Line Down to this.");
+        /* 라인 위치 내리기 / 올리기 */
+        String moveLineDown = "shift + alt(⌥) + ↓" + "/" + "shift + alt(⌥) + ↑";
+        System.out.println("Move Line Up/Down to this - 1");
+        System.out.println("Move Line Up/Down to this - 2");
+        System.out.println("Move Line Up/Down to this - 3");
+        System.out.println("Move Line Up/Down to this - 4");
+        System.out.println("Move Line Up/Down to this - 5");
 
-        /* 라인 위치 올리기 */
-        System.out.println("Move Line Up to this.");
-        System.out.println("Move Line Up to this.");
-        System.out.println("Move Line Up to this.");
-        System.out.println("Move Line Up to this.");
-        System.out.println("Move Line Up to this.");
-        String moveLineUp = "shift + alt(⌥) + ↑";
-
-        /* 라인 블록단위 내리기 */
+        /* 라인 블록단위 내리기 / 올리기 */
         for (int i = 0; i < 10; i++) {  /* TODO: 커서는 여기로 두고 아래 단축키 누르기! */
-            String moveStatementDown = "shift + cmd(⌘) + ↓";
+            String moveStatementDown = "shift + cmd(⌘) + ↓" + "/" + "shift + cmd(⌘) + ↑";
         }
-        System.out.println("Move Statement Down to this.");
-        System.out.println("Move Statement Down to this.");
-        System.out.println("Move Statement Down to this.");
-        System.out.println("Move Statement Down to this.");
-        System.out.println("Move Statement Down to this.");
-
-        /* 라인 블록단위 올리기 */
-        System.out.println("Move Statement Up to this.");
-        System.out.println("Move Statement Up to this.");
-        System.out.println("Move Statement Up to this.");
-        System.out.println("Move Statement Up to this.");
-        System.out.println("Move Statement Up to this.");
-        for (int i = 0; i < 10; i++) {  /* TODO: 커서는 여기로 두고 아래 단축키 누르기! */
-            String moveStatementUp = "shift + cmd(⌘) + ↑";
-        }
+        System.out.println("Move Statement Up/Down to this.");
+        System.out.println("Move Statement Up/Down to this.");
+        System.out.println("Move Statement Up/Down to this.");
+        System.out.println("Move Statement Up/Down to this.");
+        System.out.println("Move Statement Up/Down to this.");
     }
 
     /* 커서 선택 늘리기 / 줄이기 */
