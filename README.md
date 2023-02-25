@@ -1,33 +1,33 @@
 # Jetbrain-App-Starter
 > Jetbrain 제품 응용프로그램들 공통 시작하기
 
-### README.md 파일에서 스페이스 2번 눌렀던게 저장 후 사라질 때
-> preferences -> Editor -> General -> Save Files -> Strip trailing spaces on Save for: None 으로 변경
+## 설정
+### 설정 기준 버전
+> IntelliJ IDEA 2022.3.2 (Ultimate Edition)
 
-### .gitignore 에 파일 추가 안될때
-> 터미널에 `git rm -rf --cached .`
+### [제거됨] README.md 파일에서 스페이스 2번 눌렀던게 저장 후 사라질 때
+> IntelliJ IDEA 2022.3.2 (Ultimate Edition) 에는 없음 확인함.  
+> Settings -> Editor -> General -> Save Files -> Strip trailing spaces on Save for: None 으로 변경
 
-## Gradle
-> Gradle Builder 사용 시 Preference -> Build, Execution, Deployment -> Build Tools -> Gradle 에서    
+### [제거됨] Gradle
+> IntelliJ IDEA 2022.3.2 (Ultimate Edition) 에는 없음 확인함.  
+> Gradle Builder 사용 시 Settings -> Build, Execution, Deployment -> Build Tools -> Gradle 에서    
 > Build and run using: IntelliJ IDEA  
 > Run tests using: IntelliJ IDEA  
 > 로 변경하면 빌드나 run test 가 더 빨라짐.  
 
-## macOS
 ### File Header 추가
 > 소스 파일을 생성할 때 마다 자동으로 파일의 최상단에 생성할 주석 코드(예: 저작권, 파일 소유자, 파일 생성자, 생성일 등의 정보)  
-> Preference(Command + ,) -> Editor -> File and Code Templates -> include 탭 -> + 버튼  
+> Settings -> Editor -> File and Code Templates -> include 탭 -> + 버튼  
 > ```java
 > /**
 >  * Created by Yoo Ju Jin(jujin1324@daum.net)
->  * Created Date : 2019-09-15
+>  * Created Date : ${DATE}
 >  */
 > ```
 > APPLY 버튼 -> OK 버튼
 
-### 단축키 ctrl -> command 변경
-> 환경설정 : command + , -> Keymap 이동 -> dropdown 메뉴에서 Mac OS X 으로 변경 후 Main menu > edit 에서 변경확인    
-> [How to use Mac OSX Keymap on Windows for WebStorm or IntelliJ IDEA?](https://stackoverflow.com/questions/42422318/how-to-use-mac-osx-keymap-on-windows-for-webstorm-or-intellij-idea/42422764#42422764)  
+---
 
 ## 단축키 정리
 > 해당키에는 커스텀으로 변경한 키가 있습니다. - [커스텀] 표시가 붙습니다.    
@@ -193,3 +193,9 @@
 
 ### Google Cloud Repository
 > [Wiki](https://github.com/JuJin1324/Intellij-IDEA-Starter/wiki/Google-Cloud-Repository-%EC%97%B0%EB%8F%99)
+
+---
+
+## 기타
+### .gitignore 에 파일 추가 안될때
+> 터미널에 `git rm -rf --cached .`
