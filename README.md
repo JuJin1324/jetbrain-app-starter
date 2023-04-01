@@ -1,4 +1,4 @@
-# Jetbrain-App-Starter
+# jetbrain-app-starter
 > Jetbrain 제품 응용프로그램들 공통 시작하기
 
 ## 설정

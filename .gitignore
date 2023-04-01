@@ -30,3 +30,9 @@ Temporary Items
 
 /.idea/
 /practice-keymap/practice-keymap.iml
+/practice-keymap/target/classes/keymap/practice/methodHierarchy/ChildClass.class
+/practice-keymap/target/classes/keymap/practice/methodHierarchy/ParentClass.class
+/practice-keymap/target/classes/keymap/practice/FirstCursor.class
+/practice-keymap/target/classes/keymap/practice/Refactoring.class
+/practice-keymap/target/classes/keymap/practice/SecondWindow.class
+/practice-keymap/target/classes/keymap/practice/thirdSearchCode.class
