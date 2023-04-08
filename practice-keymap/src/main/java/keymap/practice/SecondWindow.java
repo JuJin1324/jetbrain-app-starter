@@ -20,9 +20,9 @@ public class SecondWindow {
         String hideAllToolWindows = "cmd(⌘) + shift + F12";
 
         /* 스플릿 탭 오른쪽 생성 */
-        String splitVertically = "ctrl(^) + alt(⌥) | ]";
+        String splitVertically = "ctrl(^) + alt(⌥) + ]";
         /* 스플릿 탭 모두 없애기 */
-        String unSplitAll = "ctrl(^) + alt(⌥) | [";
+        String unSplitAll = "ctrl(^) + alt(⌥) + [";
 
         /* 포커스 오른쪽 탭으로 이동*/
         String moveFocusRight = "ctrl(^) + alt(⌥) + shift + ]";

@@ -1,5 +1,7 @@
 package keymap.practice;
 
+import keymap.practice.interfaces.DefaultExample;
+import keymap.practice.interfaces.Example;
 import keymap.practice.methodHierarchy.ChildClass;
 
 /**
@@ -18,19 +20,19 @@ public class thirdSearchCode {
         /* 최근 수정한 위치 목록 */
         String recentLocations = "cmd(⌘) + shift + E";
 
-        /* 선언부 혹은 사용부 이동 - TODO: parentMethod에 커서를 두고 cmd + B 하면 선언부로 이동, 선언부에서 한번 더 cmd + B 누르면 사용부로 돌아옴 */
+        /* 선언부 혹은 사용부 이동 - TODO: 아래 exam() 메서드에 커서를 두고 cmd + B 하면 선언부로 이동, 선언부에서 한번 더 cmd + B 누르면 사용부로 돌아옴 */
         String declarationOrUsages = "cmd(⌘) + B";
 
-        /* 구현부 이동 - TODO: parentMethod에 커서를 두고 단축키 눌러보자 */
+        /* 구현부 이동 - TODO: 아래 exam() 메서드에 커서를 두고 단축키 눌러보자 */
         String implementation ="cmd(⌘) + alt(⌥) + B";
 
-        ChildClass childClass = new ChildClass();
-        childClass.parentMethod();
+        Example example = new DefaultExample();
+        example.exam();
 
-        /* 메서드 계층보기 : 커서를 parentMethod 에 두고 단축키 입력 */
+        /* 메서드 계층보기 : 커서를 위에 exam() 메서드에 에 두고 단축키 입력 */
         String methodHierarchy = "cmd(⌘) + shift + H";
 
-        /* 사용부 찾기 - TODO : parentMethod에 커서를 두고 cmd + B 를 눌러서 내부로 들어간 이후에 아래 단축키 입력한다. */
+        /* 사용부 찾기 - TODO : 위에 exam() 메서드에 커서를 두고 cmd + B 를 눌러서 내부로 들어간 이후에 아래 단축키 입력한다. */
         String findUsages = "alt(⌥) + F7";
 
         /* Find */

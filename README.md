@@ -9,8 +9,7 @@
 > IntelliJ IDEA 2022.3.2 (Ultimate Edition) 에는 없음 확인함.  
 > Settings -> Editor -> General -> Save Files -> Strip trailing spaces on Save for: None 으로 변경
 
-### [제거됨] Gradle
-> IntelliJ IDEA 2022.3.2 (Ultimate Edition) 에는 없음 확인함.  
+### Gradle 
 > Gradle Builder 사용 시 Settings -> Build, Execution, Deployment -> Build Tools -> Gradle 에서    
 > Build and run using: IntelliJ IDEA  
 > Run tests using: IntelliJ IDEA  
@@ -120,6 +119,7 @@
 > Step Over | F8 | F8
 > Step Out | shift + F8 | shift + F8
 > Step Into | F7 | F7
+> Resume Program | F9 | F9
 
 ### VCS
 > 설명       | macOS     |  Windows  
