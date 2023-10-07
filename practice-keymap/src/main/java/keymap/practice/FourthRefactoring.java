@@ -7,7 +7,7 @@ import keymap.practice.methodHierarchy.ParentClass;
  * Created by Yoo Ju Jin(yjj@hanuritien.com)
  * Created Date : 2019/12/25
  */
-public class Refactoring {
+public class FourthRefactoring {
 
     public static void main(String[] args) {
         /* 리펙토링 메뉴 - TODO : 아래 new ParentClass()에 커서 두고 단축키 쓴 후 Introduce variable 선택 */
