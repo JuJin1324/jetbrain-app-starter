@@ -130,13 +130,14 @@
 > Pull[커스텀]      |  cmd(⌘) + shift + P | 모름
 
 ### System
-> 설명       | macOS     |  Windows  
-> --------- | --------- | ---------
-> 환경설정(Preferences) | cmd(⌘) + , | ctrl + shift + S 
-> 파인더(윈도우 탐색기)에서 보기(reveal in Finder) | cmd(⌘) + alt(⌥) + F12 | 모름
-> 프로젝트 구조 설정(Project Structure) | cmd(⌘) + ;           | 모름
-> 생성하기(Generate) | ctrl + enter | 모름
-> 프로젝트 열기(Open...)[커스텀] | cmd(⌘) + shift + O | 모름
+> 설명       | macOS                  |  Windows  
+> --------- |------------------------| ---------
+> 환경설정(Preferences) | cmd(⌘) + ,             | ctrl + shift + S 
+> 파인더(윈도우 탐색기)에서 보기 메뉴(Reveal in Finder) | cmd(⌘) + alt(⌥) + F12  | 모름
+> 파인더(윈도우 탐색기)에서 바로 보기(Reveal in Finder) | ctrl(^) + alt(⌥) + F12 | 모름
+> 프로젝트 구조 설정(Project Structure) | cmd(⌘) + ;             | 모름
+> 생성하기(Generate) | ctrl + enter           | 모름
+> 프로젝트 열기(Open...)[커스텀] | cmd(⌘) + shift + O     | 모름
 
 ### 탐색
 > 설명       | macOS     |  Windows  
